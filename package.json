@@ -1,0 +1,21 @@
+{
+  "name": "core-js-3-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Hadrien <hadrien.tulipe@webedia-group.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode=development --config webpack.config.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "core-js": "2",
+    "regenerator-runtime": "^0.13.3"
+  }
+}
